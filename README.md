@@ -10,7 +10,6 @@
 git clone https://github.com/1schools-projects/ciw-pro-21-c-repo.git
 ```
 ###Buliding Technologies
-
 * [HTML5](http://ali.md/wiki/html5)
 * [CSS3](http://ali.md/css3ref)
 * [1Styles](http://ali.md/1styles)
