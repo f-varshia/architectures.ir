@@ -3,11 +3,11 @@
 
 ###Contributing
 
-* Check our projec's website and report any bugs or ideas in [issues](https://github.com/1schools-projects/ciw-pro-21-c-repo/issues)
+* Check our projec's website and report any bugs or ideas in [issues](https://github.com/1schools-projects/architectures.ir/issues)
 
 * Check our project's source with
 ```
-git clone https://github.com/1schools-projects/ciw-pro-21-c-repo.git
+https://github.com/1schools-projects/architectures.ir.git
 ```
 ###Buliding Technologies
 * [HTML5](http://ali.md/wiki/html5)
