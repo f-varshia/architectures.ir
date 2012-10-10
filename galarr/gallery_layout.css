@@ -1,0 +1,315 @@
+/* -----<<* In The Name Of God *>>------ */
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background-image:url('');
+	background-size:cover;
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+/* ================= header =======================*/
+div.container-header {
+	height:78px;
+	background-color:#000;
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	cursor:pointer;
+	-webkit-transition:height 1s;
+	-moz-transition:height 1s;
+	-ms-transition:height 1s;
+	-o-transition:height 1s;
+	position:absolute;
+}
+div.header {
+	background-color:black;
+	width:inherit;
+}
+div.container-header:hover {
+	height:180px;
+	z-index:10;
+}
+div.header ul {
+	width:800px;
+	list-style-type:none;
+	margin:0 auto;
+}
+div.header li {
+	float:left;
+	border-left:1px dotted #414141;
+	border-top:none;
+	border-bottom:none;
+}
+div.header a {
+	display:block;
+	text-decoration:none;
+	color:white;
+	padding:12px;
+	padding-top:50px;
+	padding-right:100px;
+	font-size:14px;
+	font-family:Helvetica;
+	text-transform:capitalize;
+	font-weight:600;
+}
+div.clear {
+	clear:both;
+}
+/* ===================== logo ======================*/
+div.logo {
+	width:162px;
+	float:left;
+	padding-top:23px;
+}
+/* =================== sub menu ===================== */
+div.header li ul {
+	width:auto;
+	float:none;
+}
+div.header li li {
+	float:none;
+	border:none;
+}
+div.header li li a {
+	padding:0;
+	padding-left:14px;
+	font-size:12px;
+	font-weight:normal;
+	color:gray;
+}
+div.header li li:hover a {
+	color:white;
+}
+/* ========================= java script ======================= */
+.selected {
+	background-color:#FF0000;
+}
+/* ================================ main =========================*/
+div.container-main {
+	min-height:180px;
+	background-color:#EDEEF0;
+}
+div.logo1 {
+	background-color:black;
+	width:71px;
+	height:7px;
+	float:left;
+	margin-top:60px;
+}
+div.logo2{
+background-image:url('contact-button0.png');
+width:161px;
+height:24px;
+float:right;
+margin-top:43px;
+z-index:5;
+}
+div.logo2:hover{
+background-image:url('contact-button1.png');	
+}
+div.space {
+	height:78px;
+}
+div.logoes {
+	width:inherit;
+	height:102px;
+}
+div.logo2 a {
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:34px;
+	padding-right:65px;
+	text-decoration:none;
+	color:black;
+	font-size:14px;
+	font-weight:bold;
+}
+/*====================== gallerry =====================*/
+div[class|='container'] > div {
+	min-height:inherit;
+	margin:0 auto;
+	width:980px;
+}
+div.gallery{
+	width:1000px;
+	margin:0 auto;
+}
+div.page {
+	width:1000px;
+	height:350px;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	position:relative;
+}
+div.gallery-pics {
+	display:block;
+	float:left;
+	width:162px;
+	height:162px;
+	position:relative;
+}
+#scroll {
+	background-image:url('gallery-background.png');
+	width:2115px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+div.gallery-pics img {
+	display:block;
+	position:absolute;
+}
+.pic-first:hover {
+	opacity:0;
+}
+div.black_overlay {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	opacity: 0.95;
+	overflow:auto;
+}
+div.white_content {
+	display: none;
+	position:absolute;
+	z-index:1002;
+	top:70px;
+	left:34px;
+}
+div.all-pics {
+	float:left;
+	width:auto;
+	height:auto;
+	position:relative;
+}
+div.all-pics div.left-pic {
+	position:absolute;
+	top:40%;
+	left:0;
+}
+div.all-pics div.right-pic {
+	position:absolute;
+	top:40%;
+	right:0;
+}
+div.left-pic:hover img.pic-second {
+	background-image:url('fancy_nav_left1.png');
+}
+div.right-pic:hover img.pic-second {
+	background-image:url('fancy_nav_right1.png');
+}
+div.close {
+	float:right;
+	width:90px;
+	height:90px;
+}
+div.close img {
+	display:block;
+	position:absolute;
+}
+div[class|='wall'] {
+	position:absolute;
+	z-index:1;
+	width:20px;
+	height:324px;
+ 	background-image:url('gallery-background.png');
+	opacity:0.9;
+}
+div.wall-1 {
+	left:0;
+}
+div.wall-2 {
+	right:0;
+}
+/*  =====================  footer  ====================  */
+div.container-footer {
+	min-height:50px;
+	margin-top:40px;
+	border-top:1px dotted #A1A0A2;
+}
+div.footer p{
+	padding:2px;
+	float:right;
+	color: #6D6E71;
+	font-size: 11px;
+	font-weight:bold;
+	font-family: Arial,sans-serif;
+}
+/* ================================ contact us ==================== */
+div.contactus {
+	color: #5D5E62;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	width:810px;
+	height:490px;
+	background-color:#E7E7E7;
+}
+div.contact-head{
+	height:70px;
+}
+div.head p {
+	padding-top:30px;
+	color:#222;
+}
+div.contact-forme {
+	height:187px;
+}
+div[class|='contact'] > div {
+	height:inherit;
+	width:760px;
+	margin:0 auto;
+}
+div[class|='form'] {
+	width:239px;
+	height:187px;
+}
+div.form-left {
+	float:left;
+}
+div.form-middle {
+	margin:auto;
+}
+div.form-right {
+	float:right;
+}
+div.text {
+	height:160px;
+}
+div.textarea {
+	margin-left:25px;
+	width:500px;
+	height:inherit;
+}
+div.contact-submit {
+	height:80px;
+}
+::selection {
+	background: #EC352F;
+	color: black;
+	text-shadow: none;
+}
+div.input {
+	margin-top:5px;
+	width:240px;
+	height:30px;
+	background-color:white;
+}
+.submit-img {
+	width:86px;
+	height:24px;
+	background-image:url('submit-button0.png');
+	background-repeat:no-repeat;
+	margin-top:20px;
+}
+.submit-img:hover {
+	background-image:url('submit-button1.png');
+	background-repeat:no-repeat;
+}
