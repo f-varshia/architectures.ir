@@ -1,0 +1,865 @@
+<!-- -<<* In The Name Of God *>>- -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>architecture.ir-GALLERY</title>
+<link type="text/css" rel="stylesheet" href="gallery_layout.css" />
+<script type="text/javascript" >
+var lasttab=0;
+function changecolor(n)
+{
+	var tabs=document.getElementById('select').getElementsByTagName('a');
+	tabs.item(lasttab).className="";
+	tabs.item(n).className="selected";
+	lasttab=n;
+}
+function lightbox(n)
+{
+	document.getElementById(n).style.display='block';
+	document.getElementById('fade').style.display='block';
+}
+function closebox(n)
+{
+	document.getElementById(n).style.display='none';
+	document.getElementById('fade').style.display='none';			
+}
+
+</script>
+</head>
+<body>
+<div class="container-header">
+  <div class="header">
+    <div class="logo"> <img src="logo1.png"  /> </div>
+    <ul id="select">
+      <li  onclick="changecolor(0);" ><a href="#">about</a>
+        <ul>
+          <li onclick="changecolor(0);" ><a href="#">Where it all started</a></li>
+        </ul>
+      </li>
+      <li onclick="changecolor(2);" ><a href="#">projects</a>
+        <ul>
+          <li onclick="changecolor(2);"><a href="#">Residential Projects</a></li>
+          <li onclick="changecolor(2);"><a href="#">Commercial Projects</a></li>
+          <li onclick="changecolor(2);"><a href="#">All Projects</a></li>
+        </ul>
+      </li>
+      <li  onclick="changecolor(6);"><a class="selected" href="">gallery</a>
+        <ul>
+          <li onclick="changecolor(6);"><a href="#">Retractable</a></li>
+          <li onclick="changecolor(6);"><a href="#">Non-Retractable</a></li>
+          <li onclick="changecolor(6);"><a href="#">Fixed Ellipsoid</a></li>
+          <li onclick="changecolor(6);"><a href="#">Operable Ellipsoid</a></li>
+          <li onclick="changecolor(6);"><a href="#">Vertical Cedar</a></li>
+          <li onclick="changecolor(6);"><a href="#">Other</a></li>
+        </ul>
+      </li>
+      <li onclick="changecolor(13);"><a href="#">products</a>
+        <ul>
+          <li onclick="changecolor(13);"><a href="#">Retractable</a></li>
+          <li onclick="changecolor(13);"><a href="#">Non-Retractable</a></li>
+          <li onclick="changecolor(13);"><a href="#">Ellipsoid</a></li>
+          <li onclick="changecolor(13);"><a href="#">Operable Roof</a></li>
+          <li onclick="changecolor(13);"><a href="#">Other</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="container-main">
+  <div class="main">
+    <div class="space"></div>
+    <div class="logoes">
+      <div class="logo1"></div>
+      <div class="logo2"><a href="javascript:void(0)" onclick ="lightbox('contact')"></a></div>
+    </div>
+  </div>
+</div>
+<!-- ================================ gallery============================= -->
+<div class="gallery">
+<div class="wall-1"></div>
+<div class="wall-2"></div>
+    <div class="page">
+        <div id="scroll">
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('0-light')" > 
+                <img src="130.jpg" class="pic-second" />
+                <img src="030.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a  href="javascript:void(0)" onclick="lightbox('1-light')"  >
+                <img src="129.jpg" class="pic-second" />
+                <img src="029.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a  href="javascript:void(0)" onclick="lightbox('2-light')" >
+                <img src="131.jpg" class="pic-second" />
+                <img src="031.jpg" class="pic-first" />
+                </a>  
+            </div>
+            <div class="gallery-pics">
+                <a  href="javascript:void(0)" onclick="lightbox('3-light')" >
+                <img src="162.jpg" class="pic-second" />
+                <img src="062.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a  href="javascript:void(0)" onclick="lightbox('4-light')" >
+                <img src="133.jpg" class="pic-second" />
+                <img src="033.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a  href="javascript:void(0)" onclick="lightbox('5-light')" >
+                <img src="134.jpg" class="pic-second" />
+                <img src="034.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a  href="javascript:void(0)" onclick="lightbox('6-light')" >
+                <img src="135.jpg" class="pic-second" />
+                <img src="035.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a  href="javascript:void(0)" onclick="lightbox('7-light')" >
+                <img src="136.jpg" class="pic-second" />
+                <img src="036.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('8-light')" >
+                <img src="140.jpg" class="pic-second" />
+                <img src="040.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('9-light')" >
+                <img src="161.jpg" class="pic-second" />
+                <img src="061.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('10-light')" >
+                <img src="145.jpg" class="pic-second" />
+                <img src="045.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('11-light')" >
+                <img src="141.jpg" class="pic-second" />
+                <img src="041.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('12-light')" >
+                <img src="142.jpg" class="pic-second" />
+                <img src="042.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('13-light')" >
+                <img src="146.jpg" class="pic-second" />
+                <img src="046.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('14-light')" >
+                <img src="147.jpg" class="pic-second" />
+                <img src="047.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('15-light')" >
+                <img src="163.jpg" class="pic-second" />
+                <img src="063.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('16-light')" >
+                <img src="150.jpg" class="pic-second" />
+                <img src="050.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('17-light')" >
+                <img src="149.jpg" class="pic-second" />
+                <img src="049.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('18-light')" >
+                <img src="144.jpg" class="pic-second" />
+                <img src="044.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('19-light')" >
+                <img src="152.jpg" class="pic-second" />
+                <img src="052.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('20-light')" >
+                <img src="154.jpg" class="pic-second" />
+                <img src="054.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('21-light')" >
+                <img src="155.jpg" class="pic-second" />
+                <img src="055.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('22-light')" >
+                <img src="143.jpg" class="pic-second" />
+                <img src="043.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('23-light')" >
+                <img src="157.jpg" class="pic-second" />
+                <img src="057.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('24-light')" >
+                <img src="158.jpg" class="pic-second" />
+                <img src="058.jpg" class="pic-first" />
+                </a>
+            </div>
+            <div class="gallery-pics">
+                <a href="javascript:void(0)" onclick="lightbox('25-light')" >
+                <img src="159.jpg" class="pic-second" />
+                <img src="059.jpg" class="pic-first" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="0-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/00.jpg" width="705"  height="529"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('0-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="1-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/01.jpg" width="672"  height="504"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('1-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="2-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/02.jpg" width="665"  height="499"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('2-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="3-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/003.jpg" width="900"  height="444"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('3-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="4-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/04.jpg" width="719"  height="539"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('4-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="5-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/05.jpg" width="719"  height="539"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('5-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="6-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/06.jpg" width="684"  height="513"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('6-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="7-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/07.jpg" width="672"  height="504"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('7-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="8-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/08.jpg" width="383"  height="513"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('8-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="9-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/09.jpg" width="640"  height="480"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('9-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="10-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/10.jpg" width="328"  height="509"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('10-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="11-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/11.jpg" width="658"  height="492"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('11-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="12-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/12.jpg" width="729"  height="545"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('12-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="13-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/13.jpg" width="394"  height="490"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('13-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="14-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/14.jpg" width="678"  height="509"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('14-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="15-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/15.jpg" width="624"  height="492"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('15-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="16-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/16.jpg" width="549"  height="490"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('16-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="17-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/17.jpg" width="640"  height="480"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('17-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="18-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/18.jpg" width="678"  height="509"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('18-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="19-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/19.jpg" width="681"  height="593"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('19-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="20-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/20.jpg" width="575"  height="593"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('20-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="21-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/21.jpg" width="740"  height="593"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('21-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="22-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/22.jpg" width="383"  height="513"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('22-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="23-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/23.jpg" width="665"  height="499"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('23-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="24-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/24.jpg" width="624"  height="417"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('24-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="25-light" class="white_content"> 
+    <div class="all-pics">
+        <img src="../galarr/all-pics/25.jpg" width="684"  height="513"/>
+        <div class="left-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_left0.png" class="pic-second" width="82" height="82"/>
+            </a>	
+        </div>
+        <div class="right-pic">
+            <a href = "javascript:void(0)" onclick ="closebox('light')">
+            <img src="fancy_nav_right0.png" class="pic-second" width="82" height="82"/>
+            </a>
+        </div>          
+    </div>
+    <div class="close">
+        <a href = "javascript:void(0)" onclick ="closebox('25-light')">
+        <img src="fancy_close1.png" class="pic-second" width="90" height="90"/>
+        <img src="fancy_close0.png" class="pic-first" width="90" height="90"/>
+        </a>
+    </div>
+</div>
+<div id="fade" class="black_overlay">
+</div> 
+<!-- ================================ footer ============================= -->
+<div class="container-footer">
+  <div class="footer"> 
+  <p>Design By Fateme.V © 2011</p>
+  </div>
+</div>
+</body>
+</html>
+<!-- ======================== contact =====================-->
+<div id="contact" class="white_content">
+<div class="contactus">
+<div class="contact-head">
+  <div class="head">
+    <p>Contact us</p>
+  </div>
+</div>
+<div class="contact-forme">
+<div class="forme">
+<div class="form-left">
+<form action="MAILTO:info@architectures.ir" method="post" enctype="text/plain">
+First Name<img src="form-required.png" width="7" height="7"/><br />
+<div class="input" >
+  <input  id="name" type="text" name="name" style="border:none;" />
+</div>
+<br />
+Company<br />
+<div class="input" >
+  <input type="text" name="company"  style="border:none" />
+</div>
+<br />
+Telephone<br />
+<div class="input" >
+  <input type="text" name="Telephone"  style="border:none" />
+</div>
+<br />
+<br />
+</div>
+<div class="form-right"></div>
+<div class="form-middle"> Last Name<img src="form-required.png" width="7" height="7"/><br />
+  <div class="input" >
+    <input id="name" type="text" name="name" style="border:none" />
+  </div>
+  <br />
+  Website<br />
+  <div class="input" >
+    <input type="text" name="Website" style="border:none"/>
+  </div>
+  <br />
+  Email<img src="form-required.png" width="7" height="7"/><br />
+  <div class="input" >
+    <input type="text" name="Email" style="border:none" />
+  </div>
+</div>
+</div>
+</div>
+<div class="text">
+  <div class="textarea"> Message
+    <div class="input" >
+      <textarea rows="8" cols="60" style="border:none"  >
+	</textarea>
+    </form>
+    </div>
+  </div>
+</div>
+<div class="contact-submit">
+  <div class="submit"> <a href="javascript:void(0)" onclick ="closebox('contact')" >
+    <div class="submit-img"></div>
+    </a></div>
+</div>
+</div>
+<div class="close"> <a href = "javascript:void(0)" onclick ="closebox('contact')"> <img src="fancy_close1.png" class="pic-second" width="90" height="90"/> <img src="fancy_close0.png" class="pic-first" width="90" height="90"/> </a> </div>
+</div>
