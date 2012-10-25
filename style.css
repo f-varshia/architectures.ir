@@ -152,44 +152,12 @@ div.tabs div {
 	float:left;
 	-webkit-transition:width 1s;	
 }
-div.tabs div:nth-child(1) {
-	background-image:url('images/24.jpg');
+div.tabs div {
+	position: relative;
 }
-div.tabs div:nth-child(1):hover {
-	background-image:url('images/21.jpg');
+div.tabs img {
+	position: absolute;
 }
-div.tabs div:nth-child(2) {
-	background-image:url('images/3.jpg');
-}
-div.tabs div:nth-child(2):hover {
-	background-image:url('images/4.jpg');
-}
-div.tabs div:nth-child(3) {
-	background-image:url('images/5.jpg');
-}
-div.tabs div:nth-child(3):hover {
-	background-image:url('images/7.jpg');
-}
-div.tabs div:nth-child(4) {
-	background-image:url('images/1.jpg');
-}
-div.tabs div:nth-child(4):hover {
-	background-image:url('images/2.jpg');
-}
-div.tabs div:nth-child(5) {
-	background-image:url('images/09.jpg');
-}
-div.tabs div:nth-child(5):hover {
-	background-image:url('images/13.jpg');
-}
-div.tabs div:nth-child(6) {
-	background-image:url('images/019.jpg');
-	padding-right:200px;
-}
-div.tabs div:nth-child(6):hover {
-	background-image:url('images/017.jpg');
-}
-
 
 /* ===================== footer ==================== */
 div.container-footer {
