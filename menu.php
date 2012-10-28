@@ -1,4 +1,4 @@
-<div class="logo"> <img src="images/logo1.png"  /> </div>
+<div class="logo"> <img src="<?php bloginfo("template_url"); ?>/images/logo.png"  /> </div>
     <ul>
         <?php
           wp_nav_menu(array(

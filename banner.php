@@ -5,7 +5,6 @@
 	if( have_posts() ) {
 		the_post();
 		$meta = get_post_custom();
-	 	the_post_thumbnail();
 	?>
 	<?php
 	$uploads = wp_upload_dir(); 
