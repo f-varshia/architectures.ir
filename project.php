@@ -10,48 +10,47 @@
 <div class="project">
   <div class="part-left">
     <div class="left-top">
-      <ul>
-        <li><a href="#">Bronte</a></li>
-        <li><a href="#">Bronte</a></li>
-        <li><a href="#">Bronte</a></li>
-        <li><a href="#">Bronte</a></li>
-      </ul>
+        <?php
+            wp_nav_menu(array(
+            'theme_location'  => 'pro-menu',
+            'container'       => false, 
+            'container_class' => '', 
+            'menu_class'      => '', 
+            'before'          => '',
+            'after'           => '',
+            'link_before'     => '',
+            'link_after'      => '',
+            'items_wrap'      => '<ul class="%2$s">%3$s</ul>'
+            ));
+        ?>
     </div>
     <div class="left-bottom">
-	    <?php
+      <?php
         dynamic_sidebar("Sidebar Bottom");
       ?>
     </div>
   </div>
   <div class="part-right">
       <div class="gallery-pro">
-        <div style="background-image:url('<?php bloginfo("template_url"); ?>/images/16.jpg');">
+        <div><?php the_post_thumbnail(); ?>
           <figure>
             <div class="slide1">
               <div class="train1">
-                <div style="background-image:url('<?php bloginfo("template_url"); ?>/images/16.jpg');"></div>
-                <div style="background-image:url('<?php bloginfo("template_url"); ?>/images/19.jpg');"></div>  
-                <div style="background-image:url('<?php bloginfo("template_url"); ?>/images/18.jpg');"></div>  
-                <div style="background-image:url('<?php bloginfo("template_url"); ?>/images/20.jpg');"></div>  
-              </div>
-            </div>
-          </figure>
-        </div>
-        <div style="background-image:url('<?php bloginfo("template_url"); ?>/images/20.jpg');">
-          <figure>
-            <div class="slide1">
-              <div class="train1">
-                <div style="background-image:url('<?php bloginfo("template_url"); ?>/images/16.jpg');"></div>
-                <div style="background-image:url('<?php bloginfo("template_url"); ?>/images/19.jpg');"></div>  
-                <div style="background-image:url('<?php bloginfo("template_url"); ?>/images/18.jpg');"></div>  
-                <div style="background-image:url('<?php bloginfo("template_url"); ?>/images/20.jpg');"></div>  
+                <?php
+                  the_post();
+                  $meta = get_post_custom();
+                  if(count($meta['img'])>0){
+                  foreach ($meta['img'] as $img_id) {
+                    $img = wp_get_attachment_image($img_id,'large'); 
+                    echo "<div>$img</div>";
+                  }
+                  }
+                ?>
               </div>
               <div class="left-pic"></div>
               <div class="right-pic"></div>
             </div>
           </figure>
-        </div>
-        <div style="background-image:url('<?php bloginfo("template_url"); ?>/images/17.jpg');">
         </div>
       </div>
   </div>

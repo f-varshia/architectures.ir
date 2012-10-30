@@ -3,10 +3,7 @@
 	padding:0;
 }
 body {
-	background-image:url('');
-	background-size:cover;
-	background-position:center top;
-	background-repeat:no-repeat;
+	background-color: #EDEEF0;
 }
 /* ================= header =======================*/
 div.container-header {
@@ -403,6 +400,13 @@ div.gallery-pro > div{
 	width: 648px;
 	height: 490px;
 	}
+div.gallery-pro > div img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 648px;
+	height: 490px;
+	}
 div.slide1{
 		position: relative;
 		width: 648px;
@@ -425,8 +429,18 @@ div.train1 > div{
 	background-size     : cover;
 	background-repeat   : no-repeat;
 	background-position : left top;
+	position: relative;
 }
 
+div.train1 > div img{
+	width  : 648px;
+	height : inherit;
+	float  : left;
+	border-radius       : 4px;
+	background-size     : cover;
+	background-repeat   : no-repeat;
+	background-position : left top;
+}
 div.project {
 	width:980px;
 	min-height:490px;

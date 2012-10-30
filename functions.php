@@ -24,3 +24,15 @@ register_sidebar(array(
 	'before_title' => '<br /><strong class="widgettitle">',
 	'after_title' => "<br /><br /></strong>\n"
 ));
+//================== sidebar for project=================//
+register_sidebar(array(
+	'name' => 'Sidebar Bottom',
+	'id' => 'sidebar-2',
+	'description' => 'Bottom panel for project',
+	'before_widget' => '<span class="widget %2$s">',
+	'after_widget' => "</span>\n",
+	'before_title' => '<br /><p class="widgettitle">',
+	'after_title' => "<br /><br /></p>\n"
+));
+
+register_nav_menu('pro-menu', "project Menu");
