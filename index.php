@@ -5,6 +5,5 @@
   get_template_part("submenu");
   get_template_part("banner");
   get_template_part("footer");
-  get_template_part("contact");
 
 ?>
