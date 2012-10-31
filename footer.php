@@ -15,5 +15,8 @@
 <div id="fade" class="black_overlay"> </div>
 <script type="text/javascript" src="<?php bloginfo("template_url"); ?>/script.js"></script>
 <!--<script type="text/javascript" src="<?php bloginfo("template_url"); ?>/underdev.js"></script>-->
+<script type="text/javascript" src="<?php bloginfo("template_url"); ?>/jquery.js"></script>
+	<script type="text/javascript" src="<?php bloginfo("template_url"); ?>/jquery-ui.js"></script>
+	<script type="text/javascript" src="<?php bloginfo("template_url"); ?>/lightbox.js"></script>
 </body>
 </html>

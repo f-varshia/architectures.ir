@@ -5,6 +5,7 @@
 <title>architectures.ir-HOME PAGE</title>
 <link type="text/css" rel="stylesheet" href="<?php bloginfo("template_url"); ?>/style.css" />
 <script type="text/javascript" src="<?php bloginfo("template_url"); ?>/common-files/zepto.js"></script>
+<link type="text/css" rel="stylesheet" href="<?php bloginfo("template_url"); ?>/lightbox.css" />
 <script type="text/javascript" >
     function lightbox(m){ 
     document.getElementById(m).style.display='block'; 
