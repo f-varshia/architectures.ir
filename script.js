@@ -8,25 +8,27 @@ function validateEmail(str){
   return emailPattern.test(str);
 }
 $(function(){
- var animateDue = 600;
+var animateDue = 600;
+slides = $('div.tabs div');
+slides.last().css({'padding-right':'200px'});
 
-  slides = $('div.tabs div');
-
-  slides.mouseover(function(){
-    var that=this;
-    slides.animate({width:'105px'},animateDue);
-    $(this).animate({
-      width:'490px'},animateDue);
-    $('that figure').animate({
-      opacity:0
+slides.mouseover(function(){ 
+    $(this).addClass('burn');
+    slides.animate({width:'105px'},animateDue); 
+    $(this).animate({ 
+        width:'490px'},animateDue);
+    $('.burn figure').animate({
+        opacity:0
     });
-  }).mouseout(function(){
+}).mouseout(function(){
     slides.animate({width:'158px'},animateDue);
-        $('div.tabs figure').animate({
-      opacity:1
+    $(this).removeClass('burn');
+    $('div.tabs figure').animate({
+        opacity:1
     });
-  });
-  //================= script for project->left menu
+
+});
+//================= script for project->left menu
   var train = $('.gallery-pro > div'),
       lists = $('div.left-top ul li');
 
@@ -106,5 +108,4 @@ $('#contact-form').submit(function(){
     return !err;
 
   });
-
 });
