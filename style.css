@@ -525,3 +525,39 @@ div.left-bottom span{
 	padding-top:20px;
 	padding-left:20px;
 }
+
+/*=============================== project page ======================*/
+.frame-pic{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 162px;
+	height: 324px ;
+
+}
+.frame-pic:hover{
+	top: -162px;
+}
+
+.frame {
+	width: 162px;
+	height: 162px ;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+
+div[class|='wall'] {
+	position:absolute;
+	z-index:1;
+	width:20px;
+	height:324px;
+ 	background-image:url('./image2/gallery-background.png');
+	opacity:0.9;
+}
+div.wall-1 {
+	left:0;
+}
+div.wall-2 {
+	right:0;
+}
