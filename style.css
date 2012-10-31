@@ -269,38 +269,6 @@ div.close-img:hover {
 	background-color: #D5FCD2 !important;
 }
 
-div.gallery-main{
-	width:1000px;
-	margin:0 auto;
-}
-div.page {
-	width:1000px;
-	height:350px;
-	overflow-x:scroll;
-	overflow-y:hidden;
-	position:relative;
-}
-div.gallery-pics {
-	display:block;
-	float:left;
-	width:162px;
-	height:162px;
-	position:relative;
-}
-#scroll {
-	background-image:url('images/gallery-background.png');
-	width:2115px;
-	position:absolute;
-	left:0;
-	top:0;
-}
-div.gallery-pics img {
-	display:block;
-	position:absolute;
-}
-.pic-first:hover {
-	opacity:0;
-}
 div.black_overlay {
 	display: none;
 	position: absolute;
@@ -573,7 +541,7 @@ div.left-bottom span{
 div[class|='wall'] {
 	position:absolute;
 	z-index:1;
-	width:20px;
+	width:5%;
 	height:324px;
  	background-image:url('./image2/gallery-background.png');
 	opacity:0.9;
@@ -583,4 +551,29 @@ div.wall-1 {
 }
 div.wall-2 {
 	right:0;
+}
+
+div.gallery-main{
+	width:1000px;
+	margin:0 auto;
+}
+div.page {
+	width: 950px;
+	height: 350px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+
+#scroll {
+	background-image:url('images/gallery-background.png');
+	width:1500px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+.pic-first:hover {
+	opacity:0;
 }
