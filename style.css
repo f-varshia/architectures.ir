@@ -1,3 +1,11 @@
+/*
+Theme Name: Architecture Theme
+Theme URI: http://Architectures.ir
+Author: Fateme Vashaee 
+Author URI: http://Architectures.ir
+Description: Wordpress Theme for ciw programming.
+Version: 0.1
+*/
 * {
 	margin:0;
 	padding:0;
@@ -416,7 +424,6 @@ div.train1 > div{
 	width  : 648px;
 	height : inherit;
 	float  : left;
-	border-radius       : 4px;
 	background-size     : cover;
 	background-repeat   : no-repeat;
 	background-position : left top;
@@ -427,7 +434,6 @@ div.train1 > div img{
 	width  : 648px;
 	height : inherit;
 	float  : left;
-	border-radius       : 4px;
 	background-size     : cover;
 	background-repeat   : no-repeat;
 	background-position : left top;
