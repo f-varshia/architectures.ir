@@ -238,15 +238,38 @@ div.input {
 .submit-img {
 	width:86px;
 	height:24px;
-	background-image:url('images/submit-button0.png');
+	background-image:url('./images/submit-button.png');
 	background-repeat:no-repeat;
+	background-position: 0 0;
 	margin-top:20px;
 }
 .submit-img:hover {
-	background-image:url('images/submit-button1.png');
-	background-repeat:no-repeat;
+	background-position: 0 -24px;
 }
-div.gallery{
+
+div.close-img,
+div.close{
+	width : 90px;
+	height :90px;
+	background-image:url('./images/close-button.png');
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	float: right;
+	overflow: hidden;
+}
+
+div.close-img:hover { 
+	background-position: 0 -90px;
+}
+.err {
+	background-color: #FCDFD2 !important;
+}
+
+.ok{
+	background-color: #D5FCD2 !important;
+}
+
+div.gallery-main{
 	width:1000px;
 	margin:0 auto;
 }
